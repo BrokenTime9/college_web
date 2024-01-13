@@ -44,7 +44,6 @@ html{
     background-color: gray;
     color: blue;
     text-align: center;
-    padding: 200px 0px;
 }
 
 .gallery {
@@ -52,7 +51,6 @@ html{
     background-color: white;
     color: blue;
     text-align: center;
-    padding: 200px 0px;
 }
 
 .about {
@@ -60,5 +58,4 @@ html{
     background-color: gray;
     color: blue;
     text-align: center;
-    padding: 200px 0px;
 }
