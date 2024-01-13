@@ -1,0 +1,64 @@
+:root{
+    --yellow: rgb(233, 167, 48)
+}
+html{
+    scroll-behavior: smooth;
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
+}
+*{
+    margin: 0;
+    text-decoration: none;
+}
+* p, a{
+    font-size: 17px;
+}
+
+.fa-angles-down{
+    font-size: 24px;
+    color: var(--yellow);
+}
+
+
+
+.quote{
+    height: 100vh;
+    background-color: white;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.quote > p{
+    
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 20%;
+
+}
+
+.news {
+    height: 100vh;
+    background-color: gray;
+    color: blue;
+    text-align: center;
+    padding: 200px 0px;
+}
+
+.gallery {
+    height: 100vh;
+    background-color: white;
+    color: blue;
+    text-align: center;
+    padding: 200px 0px;
+}
+
+.about {
+    height: 10vh;
+    background-color: gray;
+    color: blue;
+    text-align: center;
+    padding: 200px 0px;
+}
