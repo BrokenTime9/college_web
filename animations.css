@@ -17,9 +17,7 @@
 }
 
 @keyframes backcolor {
-  50%{
-    /* background-image: linear-gradient(#000, #000);   */
-  }  
+  
   100%{
     background-position: 0 0;
   }
