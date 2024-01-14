@@ -1,14 +1,18 @@
 :root{
-    --yellow: rgb(233, 167, 48)
+    --yellow: rgb(233, 167, 48);
+    --gray: #f4f4f4;
 }
 html{
     scroll-behavior: smooth;
     font-family: 'poppins', sans-serif;
     box-sizing: border-box;
+
+
 }
 *{
     margin: 0;
     text-decoration: none;
+
 }
 * p, a{
     font-size: 17px;
@@ -23,10 +27,11 @@ html{
 
 .quote{
     height: 100vh;
-    background-color: white;
     text-align: center;
     justify-content: center;
     align-items: center;
+    background-color: white;
+
     
 }
 
@@ -50,21 +55,24 @@ html{
 
 .news {
     height: 100vh;
-    background-color: gray;
     color: blue;
     text-align: center;
+    background-color: var(--gray);
+
 }
 
 .gallery {
     height: 100vh;
-    background-color: white;
     color: blue;
     text-align: center;
+    background-color: var(--gray);
+
 }
 
 .about {
     height: 10vh;
-    background-color: gray;
     color: blue;
     text-align: center;
+    background-color: var(--gray);
+
 }
