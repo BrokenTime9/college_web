@@ -53,25 +53,17 @@ html{
 
 }
 
-.news {
-    height: 100vh;
-    color: blue;
-    text-align: center;
-    background-color: var(--gray);
 
-}
 
 .gallery {
     height: 100vh;
-    color: blue;
     text-align: center;
-    background-color: var(--gray);
+    background-color: white;
 
 }
 
 .about {
     height: 10vh;
-    color: blue;
     text-align: center;
     background-color: var(--gray);
 
