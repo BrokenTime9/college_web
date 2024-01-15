@@ -46,12 +46,12 @@
   -webkit-background-clip: text;
 } 
   
-  /* .top-right {
+ .top-right {
     position: absolute;
     top: 8px;
     right: 16px;
   }
-  
+   
   .bottom-right {
     position: absolute;
     bottom: 8px;
@@ -63,4 +63,4 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-} */
+}
