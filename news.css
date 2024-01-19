@@ -1,3 +1,5 @@
+/*---------------------------------------------- ----------News Basic ----------------------------------------------------------*/
+
 .news {
     height: 100vh;
     text-align: center;
@@ -20,14 +22,16 @@
     line-height: 1.5;
     font-weight: lighter;
 }
-.grid-container{
+
+/*-------------------------------------------------------- Card prop --------------------------------------------------------------*/
+.cards{
     position: relative;
     top: 10%;
     
 }
 
 /* grid prop */
-.grid-container{
+.cards{
     display: grid;
     grid-template-columns: auto auto auto auto;
     /* padding: 10px; */
@@ -36,7 +40,7 @@
    
 }
 
-.grid-container > div{
+.cards > div{
     background-color: var(--yellow);
     text-align: center;
     overflow: none;
@@ -46,7 +50,7 @@
 
 
 
-/* Div span */
+/*---------------------------------------------------------------------------- Div span --------------------------------------------*/
 .item1{
     grid-column: 1 / 3;
 }
@@ -70,6 +74,48 @@
 .grid-container div > img{
     /* width: 100%; */  
     display: none;
+}
+
+
+/* Polaroid css */
+
+div.container {
+    text-align: center;
+    padding: 10px 20px;
+    
+  }
+  
+.cards {
+  
+    display: grid;
+      
+    grid-template-columns: repeat(3, 1fr);
+      
+    grid-auto-rows: auto;
+      
+    grid-gap: 1rem;
+  
+    margin: 40px 90px;
+      
+  }
+      
+      
+      
+.card {
+      
+    border: 2px solid #e7e7e7;
+      
+    border-radius: 4px;
+      
+    padding: .5rem;
+  
+      
+  }
+  
+.card:hover{
+    -webkit-box-shadow: 0 10px 6px -6px #777;
+    -moz-box-shadow: 0 10px 6px -6px #777;
+    box-shadow: 0 10px 6px -6px #777;
 }
 
 
