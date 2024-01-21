@@ -49,7 +49,6 @@ a {
 }
 
 .about {
-  height: 10vh;
-  text-align: center;
+  height: 20vh;
   background-color: var(--gray);
 }

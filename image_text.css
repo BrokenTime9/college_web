@@ -2,11 +2,11 @@
   /* width: 100%; */
   height: 100vh;
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url("https://imgs.search.brave.com/vE2z-lXB1CT_e2BY_ILGeftBEtr_9DgCujk_FZX-enk/rs:fit:860:0:0/g:ce/aHR0cHM6Ly93d3cu/aGlnaGVyZWRkaXZl/LmNvbS9pbWdwcm94/eS84c2VPQ2tqUU4w/c05lODhkNTRVRHg2/TEUyS0c3bm4zVWJf/V1dwdUt0ZnBzL2c6/Y2UvcnM6ZmlsbDox/MjAwOjY3NToxL2JH/OWpZV3c2THk4dlpH/bDJaV2x0WVdkbEww/ZGxkSFI1U1cxaFoy/VnpMVFkzT1RVeU56/ZzJOQzVxY0djLmpw/Zw");
-  z-index: -1;
-  position: sticky;
-  top: 0;
+    url("https://directory.edugorilla.com/wp-content/uploads/sites/6/2018/08/7a9126780a19480d502ea25af6d87208.jpeg");
   background-size: cover;
+  top: 0;
+  position: sticky;
+  z-index: -1;
   background-position: center;
   text-align: center;
   text-decoration: none;
@@ -30,10 +30,11 @@
 
 .rayat_item {
   position: absolute;
-  left: 40%;
-  top: 25%;
+  left: 50%;
+  top: 45%;
   transform: translate(-50%, -50%);
-  font-size: 160px;
+  text-align: left;
+  font-size: 80px;
   /* -webkit-text-stroke: 1px #fff; */
   color: transparent;
   background-image: linear-gradient(#fff, #fff);
