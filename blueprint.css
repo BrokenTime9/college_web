@@ -1,70 +1,55 @@
-:root{
-    --yellow: rgb(233, 167, 48);
-    --gray: #f4f4f4;
+:root {
+  --yellow: rgb(233, 167, 48);
+  --gray: #f4f4f4;
 }
-html{
-    scroll-behavior: smooth;
-    font-family: 'poppins', sans-serif;
-    box-sizing: border-box;
-
-
+html {
+  scroll-behavior: smooth;
+  font-family: "poppins", sans-serif;
+  box-sizing: border-box;
 }
-*{
-    margin: 0;
-    text-decoration: none;
-
+* {
+  margin: 0;
+  text-decoration: none;
 }
-* p, a{
-    font-size: 17px;
+* p,
+a {
+  font-size: 17px;
 }
 
-.fa-angles-down{
-    font-size: 24px;
-    color: var(--yellow);
+.common {
+  height: 100vh;
+  text-align: center;
+  background-color: white;
 }
 
-
-
-.quote{
-    height: 100vh;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    background-color: white;
-
-    
+.fa-angles-down {
+  font-size: 24px;
+  color: var(--yellow);
 }
 
-.quote > p{
-    
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-
-    background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(233,167,48, 0.7); /*Black w/opacity/see-through  */
-    color: white;
-    font-size: 72px;
-    position: relative;
-    top: 45%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 80%;
-    padding: 80px;
-    text-align: center;
-
+.quote {
+  justify-content: center;
+  align-items: center;
 }
 
+.quote > p {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
-
-.gallery {
-    height: 100vh;
-    text-align: center;
-    background-color: white;
-
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(233, 167, 48, 0.7); /*Black w/opacity/see-through  */
+  color: white;
+  font-size: 72px;
+  position: relative;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  padding: 80px;
+  text-align: center;
 }
 
 .about {
-    height: 10vh;
-    text-align: center;
-    background-color: var(--gray);
-
+  height: 10vh;
+  text-align: center;
+  background-color: var(--gray);
 }

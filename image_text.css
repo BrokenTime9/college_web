@@ -1,63 +1,61 @@
 .main-page {
   /* width: 100%; */
   height: 100vh;
-  background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url("https://imgs.search.brave.com/vE2z-lXB1CT_e2BY_ILGeftBEtr_9DgCujk_FZX-enk/rs:fit:860:0:0/g:ce/aHR0cHM6Ly93d3cu/aGlnaGVyZWRkaXZl/LmNvbS9pbWdwcm94/eS84c2VPQ2tqUU4w/c05lODhkNTRVRHg2/TEUyS0c3bm4zVWJf/V1dwdUt0ZnBzL2c6/Y2UvcnM6ZmlsbDox/MjAwOjY3NToxL2JH/OWpZV3c2THk4dlpH/bDJaV2x0WVdkbEww/ZGxkSFI1U1cxaFoy/VnpMVFkzT1RVeU56/ZzJOQzVxY0djLmpw/Zw");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("https://imgs.search.brave.com/vE2z-lXB1CT_e2BY_ILGeftBEtr_9DgCujk_FZX-enk/rs:fit:860:0:0/g:ce/aHR0cHM6Ly93d3cu/aGlnaGVyZWRkaXZl/LmNvbS9pbWdwcm94/eS84c2VPQ2tqUU4w/c05lODhkNTRVRHg2/TEUyS0c3bm4zVWJf/V1dwdUt0ZnBzL2c6/Y2UvcnM6ZmlsbDox/MjAwOjY3NToxL2JH/OWpZV3c2THk4dlpH/bDJaV2x0WVdkbEww/ZGxkSFI1U1cxaFoy/VnpMVFkzT1RVeU56/ZzJOQzVxY0djLmpw/Zw");
   z-index: -1;
   position: sticky;
   top: 0;
-  background-size:cover;
+  background-size: cover;
   background-position: center;
   text-align: center;
   text-decoration: none;
-    
 }
 
+.main-page img {
+  height: 100vh;
+}
 
-
-.main-page  img{
-    height: 100vh;
-  }
-
-.main-page a{
+.main-page a {
   z-index: 0;
 }
-  
+
 .explore_item {
-    position: absolute;
-    bottom: 60px;
-    left: 42.5%;
-    color: white;
-    font-size: xx-large;
+  position: absolute;
+  bottom: 60px;
+  left: 42.5%;
+  color: white;
+  font-size: xx-large;
 }
-  
+
 .rayat_item {
   position: absolute;
   left: 40%;
   top: 25%;
-  transform: translate(-50%,-50%);
+  transform: translate(-50%, -50%);
   font-size: 160px;
   /* -webkit-text-stroke: 1px #fff; */
   color: transparent;
   background-image: linear-gradient(#fff, #fff);
   background-repeat: no-repeat;
   -webkit-background-clip: text;
-} 
-  
- .top-right {
-    position: absolute;
-    top: 8px;
-    right: 16px;
-  }
-   
-  .bottom-right {
-    position: absolute;
-    bottom: 8px;
-    right: 16px;
-  }
-  
+}
+
+.top-right {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+}
+
+.bottom-right {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+}
+
 .centered {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
